@@ -406,21 +406,19 @@ $(document).ready(function () {
 		} else {
 
 
-			$('.stickyMenu' + '#' + stickyM).addClass('menu-fixed');
-			
+			$('.stickyMenu' + '#' + stickyM).addClass('menu-fixed');			
+		
 
+			if (!valida) {				
 
-			if (!valida) {
 				
-
 				$('.stickyMenu' + '#' + stickyM).hide();
 
 				$('#' + mainMenu).show();
 
 				$('#' + mainMenu +' ul li').css('display','block');		
 				
-				console.log('tope:::')
-
+				
 
 			}
 
@@ -434,8 +432,9 @@ $(document).ready(function () {
 	}
 
 	function validaM() {
+		
 
-
+		checkMediaMenu();
 
 		if (menuHamburguesa == "mHSpanish") {
 
@@ -455,6 +454,8 @@ $(document).ready(function () {
 
 
 		if (langSpaEng == "langSpanish") {
+
+			
 			
 			$('.menuHamburguesa ul .espn span').css('color', 'blue');			
 			$('.menuHamburguesa ul .engl span').css('color', '#676869');
@@ -464,11 +465,11 @@ $(document).ready(function () {
 			$('#spanish .listMenu').css('display', 'block');
 			$('#english .listMenu').css('display', 'none');
 			$('#spanish .listMenu').css('display', 'flex');
+			$('#' + mainMenu +' ul li').css('display','block');	
 			$('#spanish-sticky .listMenu').css('display', 'block');
 			$('#spanish-sticky .listMenu').css('display', 'Flex');
 
 			if ($(window).scrollTop() > 1) {
-
 				
 				$('#' + mainMenu +' ul li').css('display','none');
 
@@ -482,10 +483,11 @@ $(document).ready(function () {
 			$('.menuHamburguesa ul .espn span').css('color', '#676869');
 			stickyM = "english-sticky";
 			mainMenu = "english";
-			menuHamburguesa = "mHEnglish";							
+			menuHamburguesa = "mHEnglish";									
 			$('#english .listMenu').css('display', 'block');
 			$('#spanish .listMenu').css('display', 'none');
 			$('#english .listMenu').css('display', 'flex');
+			$('#' + mainMenu +' ul li').css('display','block');	
 			$('#english-sticky .listMenu').css('display', 'block');
 			$('#english-sticky .listMenu').css('display', 'flex');
 
@@ -963,7 +965,8 @@ $(document).ready(function () {
 	function checkMediaMenu() {
 
 
-		if (window.matchMedia('(min-width: 100px) and (orientation: landscape)').matches) {
+		if (window.matchMedia('(min-width: 100px) and (orientation: landscape)').matches || 
+			window.matchMedia('(min-width: 750px) and (max-width: 1024px) and (orientation: portrait)').matches) {
 
 
 			$('.menuHamburguesa').css('display', 'none');

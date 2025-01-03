@@ -5590,10 +5590,13 @@ ul {
 
   }
 
-  #logo,
-  #logo_ {
+  #logo {
     margin-left: 0%;
     z-index:1000
+  }
+
+  #logo_ {
+    z-index: 6000;
   }
 
   .mainMenu,
@@ -5979,7 +5982,7 @@ ul {
   }
 
   #cintillo {
-    height: 50px;
+    height: 70px;
   }
 
   #imgCintilloCentral {
