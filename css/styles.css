@@ -14,7 +14,7 @@
   color: #595959;
 }
 
-#mensaje{
+#mensaje, #mensaje_{
 
   resize: none;
 }
@@ -98,7 +98,9 @@ form {
   position: relative;
 }
 
-#frmContacto {
+
+
+#frmContacto{
   margin-bottom: 20px;
   margin-top: 20px; 
   height: auto;
@@ -107,6 +109,7 @@ form {
   justify-content: end;
 
 }
+
 
 .form-group {
   margin-bottom: 20px;
@@ -2276,7 +2279,7 @@ ul {
 
   }
 
-  #frmContacto {
+  #frmContacto{
     margin-bottom: 20px;
     margin-top: 20px;    
     height: auto;

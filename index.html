@@ -614,37 +614,59 @@
 
     <div id="frmContacto">
       
-      <form action="/submit" method="post">
-        <div class="form-group">
-          <input type="email" id="email" name="email" placeholder="Correo electrónico" class="form-control spanish" required autocomplete="email">
-          <input type="email" id="email_" name="email" placeholder="Email" class="form-control english" required autocomplete="email">
-          <span class="required-asterisk">*</span>
+      <form action="/submit" method="post" class="spanish">
+        <div class="form-group spanish">
+          <input type="email" id="email" name="email" placeholder="Correo electrónico" class="form-control spanish" required autocomplete="email">          
+          <span class="required-asterisk spanish">*</span>
         </div>
-        <div class="form-group">
+        <div class="form-group spanish">
           <input type="text" id="compania" name="compania" placeholder="Compañía" class="form-control spanish" required >
-          <input type="text" id="compania_" name="compania" placeholder="Company" class="form-control english" required >
-          <span class="required-asterisk">*</span>
+          
+          <span class="required-asterisk spanish">*</span>
         </div>
-        <div class="form-group">
+        <div class="form-group spanish">
           <textarea id="mensaje" name="mensaje" placeholder="Escríbenos tus preguntas y comentarios"
-            class="form-control spanish" rows="10" required></textarea>
+            class="form-control spanish" rows="10" required></textarea>          
+
+          <span class="required-asterisk spanish">*</span>
+        </div>
+        <div class="form-footer">
+          <span class="mandatory-note spanish">* campo obligatorio</span>         
+          <button type="submit" class="submit-button spanish">Enviar</button>   
+        </div>
+      </form>
+
+
+      <form action="/submit" method="post" class="english">
+        <div class="form-group english">         
+          <input type="email" id="email_" name="email" placeholder="Email" class="form-control english" required autocomplete="email">
+          <span class="required-asterisk english">*</span>
+        </div>
+        <div class="form-group english">          
+          <input type="text" id="compania_" name="compania" placeholder="Company" class="form-control english" required >
+          <span class="required-asterisk english">*</span>
+        </div>
+        <div class="form-group english">         
 
           <textarea id="mensaje_" name="mensaje" placeholder="Write us your questions and comments"
             class="form-control english" rows="10" required></textarea>  
 
-          <span class="required-asterisk">*</span>
+          <span class="required-asterisk english">*</span>
         </div>
-        <div class="form-footer">
-          <span class="mandatory-note spanish">* campo obligatorio</span>
-          <span class="mandatory-note english">* required field</span>
-          <button type="submit" class="submit-button spanish">Enviar</button>
+        <div class="form-footer">         
+          <span class="mandatory-note english">* required field</span>        
           <button type="submit" class="submit-button english">Send</button>
         </div>
       </form>
 
+
     </div>
 
 
+    <!--<div id="frmContacto" style="border: 1px solid blue" class="english">-->
+      
+      
+    <!--</div>-->
   </div>
 
 
