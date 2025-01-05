@@ -179,7 +179,7 @@ form {
   text-align: left;
 }
 
-
+/**/
 .english {
 
   display: none;
@@ -235,7 +235,7 @@ form {
 
 }
 
-#textoTrabajamos {
+.textoTrabajamos {
 
   top: 80%;
   left: 70px;
@@ -1103,7 +1103,7 @@ ul {
 @media only screen and (min-width: 1300px) and (max-width: 1400px) and (orientation: landscape) {
   body {
 
-    /*background-color: chartreuse;*/
+    background-color: chartreuse;
 
   }
 
@@ -1290,6 +1290,10 @@ ul {
 
   }
 
+  .languages, span img{
+    font-size: 20px
+  }
+
 
   .menu-fixed {
    
@@ -1453,7 +1457,7 @@ ul {
     max-width: 100%;
     max-height: unset;
     /* Asegura que el contenido no exceda el ancho del contenedor */
-    /*text-align: justify; /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /*text-align: justify; /* Opcional: ajusta el texto en el contenedor */
   }
 
   .tituloServ {
@@ -1642,14 +1646,14 @@ ul {
 
   #footer div h2 {
 
-    font-size: 24px;
+    font-size: 25px;
     text-align: center;
     height: auto;
   }
 
   #footer div ul li {
 
-    font-size: 23px;
+    font-size: 22px;
     text-align: center;
     height: auto;
   }
@@ -1688,7 +1692,7 @@ ul {
 
   body {
 
-    /*background-color: blanchedalmond;*/
+    background-color: blanchedalmond;
 
   }
 
@@ -2042,7 +2046,7 @@ ul {
     max-width: 100%;
     max-height: unset;
     /* Asegura que el contenido no exceda el ancho del contenedor */
-    /*text-align: justify; /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /*text-align: justify; /* Opcional: ajusta el texto en el contenedor */
   }
 
   .tituloServ {
@@ -2229,14 +2233,14 @@ ul {
 
   #footer div h2 {
 
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
     height: auto;
   }
 
   #footer div ul li {
 
-    font-size: 21px;
+    font-size: 15px;
     text-align: center;
     height: auto;
   }
@@ -2275,7 +2279,7 @@ ul {
 
   body {
 
-    /*background-color: darkmagenta;*/
+    background-color: darkmagenta;
 
   }
 
@@ -2634,7 +2638,7 @@ ul {
     max-width: 100%;
     max-height: unset;
     /* Asegura que el contenido no exceda el ancho del contenedor */
-    /*text-align: justify; /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /*text-align: justify; /* Opcional: ajusta el texto en el contenedor */
   }
 
   .tituloServ {
@@ -2835,14 +2839,14 @@ ul {
 
   #footer div h2 {
 
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     height: auto;
   }
 
   #footer div ul li {
 
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     height: auto;
   }
@@ -2883,7 +2887,7 @@ ul {
 
   body {
 
-    /*background-color: darkcyan;*/
+    background-color: darkcyan;
 
   }
 
@@ -3231,7 +3235,7 @@ ul {
     max-width: 100%;
     max-height: unset;
     /* Asegura que el contenido no exceda el ancho del contenedor */
-    /*text-align: justify; /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /*text-align: justify; /* Opcional: ajusta el texto en el contenedor */
   }
 
   .tituloServ {
@@ -3426,14 +3430,14 @@ ul {
 
   #footer div h2 {
 
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     height: auto;
   }
 
   #footer div ul li {
 
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     height: auto;
   }
@@ -3470,7 +3474,7 @@ ul {
 
   body {
 
-    /*background-color: rgba(255, 166, 0, 0.681);*/
+    background-color: rgba(255, 166, 0, 0.681);
 
   }
 
@@ -3815,7 +3819,7 @@ ul {
     max-width: 100%;
     max-height: unset;
     /* Asegura que el contenido no exceda el ancho del contenedor */
-    /*text-align: justify; /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /*text-align: justify; /* Opcional: ajusta el texto en el contenedor */
   }
 
   .tituloServ {
@@ -4033,7 +4037,7 @@ ul {
 
   #footer div ul li {
 
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     height: auto;
   }
@@ -4070,7 +4074,7 @@ ul {
 
   body {
 
-    /*background-color: cornflowerblue;*/
+    background-color: cornflowerblue;
 
   }
 
@@ -4396,7 +4400,7 @@ ul {
     max-width: 100%;
     max-height: unset;
     /* Asegura que el contenido no exceda el ancho del contenedor */
-    /*text-align: justify; /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /*text-align: justify; /* Opcional: ajusta el texto en el contenedor */
   }
 
   .tituloServ {
@@ -4599,14 +4603,14 @@ ul {
 
   #footer div h2 {
 
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     height: auto;
   }
 
   #footer div ul li {
 
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     height: auto;
   }
@@ -4644,7 +4648,7 @@ ul {
   html,
   body {
 
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
   }
 
   #cintillo,
@@ -5019,7 +5023,7 @@ ul {
   html,
   body {
 
-    /*background-color: aquamarine;*/
+    background-color: aquamarine;
 
   }
 
@@ -5392,7 +5396,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -5573,7 +5577,7 @@ ul {
   html,
   body {
 
-    /*background-color: orchid;*/
+    background-color: orchid;
 
 
   }
@@ -5947,7 +5951,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -6134,7 +6138,7 @@ ul {
   html,
   body {
 
-    /*background-color: palevioletred;*/
+    background-color: palevioletred;
 
 
   }
@@ -6402,7 +6406,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -6687,7 +6691,7 @@ ul {
   html,
   body {
 
-    /*background-color: brown;*/
+    background-color: brown;
 
 
   }
@@ -7063,7 +7067,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -7241,7 +7245,7 @@ ul {
   html,
   body {
 
-    /*background-color: pink;*/
+    background-color: pink;
 
 
   }
@@ -7615,7 +7619,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -7793,7 +7797,7 @@ ul {
   html,
   body {
 
-    /*background-color: aqua;*/
+    background-color: aqua;
 
   }
 
@@ -8172,7 +8176,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
   .servicios_ div p {
@@ -8358,7 +8362,7 @@ ul {
   html,
   body {
 
-    /*background-color: burlywood;*/
+    background-color: burlywood;
 
   }
 
@@ -8710,7 +8714,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -8898,7 +8902,7 @@ ul {
   html,
   body {
 
-    /*background-color: lightgray;*/
+    background-color: lightgray;
 
   }
 
@@ -9254,7 +9258,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
@@ -9438,7 +9442,7 @@ ul {
   html,
   body {
 
-    /*background-color: lightblue;*/
+    background-color: lightblue;
 
   }
 
@@ -9774,7 +9778,7 @@ ul {
     max-height: unset;
     height: auto;
     text-align: justify;
-    /* Opcional: ajusta el texto para que se vea mejor en el contenedor */
+    /* Opcional: ajusta el texto en el contenedor */
   }
 
 
