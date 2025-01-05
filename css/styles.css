@@ -1103,7 +1103,7 @@ ul {
 @media only screen and (min-width: 1300px) and (max-width: 1400px) and (orientation: landscape) {
   body {
 
-    background-color: chartreuse;
+   /* background-color: chartreuse;*/
 
   }
 
@@ -1692,7 +1692,7 @@ ul {
 
   body {
 
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
 
   }
 
@@ -2279,7 +2279,7 @@ ul {
 
   body {
 
-    background-color: darkmagenta;
+    /*background-color: darkmagenta;*/
 
   }
 
@@ -2887,7 +2887,7 @@ ul {
 
   body {
 
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
 
   }
 
@@ -3474,7 +3474,7 @@ ul {
 
   body {
 
-    background-color: rgba(255, 166, 0, 0.681);
+    /*background-color: rgba(255, 166, 0, 0.681);*/
 
   }
 
@@ -4074,7 +4074,7 @@ ul {
 
   body {
 
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
 
   }
 
@@ -4648,7 +4648,7 @@ ul {
   html,
   body {
 
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
   }
 
   #cintillo,
@@ -5023,7 +5023,7 @@ ul {
   html,
   body {
 
-    background-color: aquamarine;
+   /* background-color: aquamarine;*/
 
   }
 
@@ -5577,7 +5577,7 @@ ul {
   html,
   body {
 
-    background-color: orchid;
+    /*background-color: orchid;*/
 
 
   }
@@ -6138,7 +6138,7 @@ ul {
   html,
   body {
 
-    background-color: palevioletred;
+    /*background-color: palevioletred;*/
 
 
   }
@@ -6691,7 +6691,7 @@ ul {
   html,
   body {
 
-    background-color: brown;
+   /* background-color: brown;*/
 
 
   }
@@ -7245,7 +7245,7 @@ ul {
   html,
   body {
 
-    background-color: pink;
+    /*background-color: pink;*/
 
 
   }
@@ -7797,7 +7797,7 @@ ul {
   html,
   body {
 
-    background-color: aqua;
+    /*background-color: aqua;*/
 
   }
 
@@ -8362,7 +8362,7 @@ ul {
   html,
   body {
 
-    background-color: burlywood;
+    /*background-color: burlywood;*/
 
   }
 
@@ -8902,7 +8902,7 @@ ul {
   html,
   body {
 
-    background-color: lightgray;
+   /* background-color: lightgray;*/
 
   }
 
@@ -9442,7 +9442,7 @@ ul {
   html,
   body {
 
-    background-color: lightblue;
+    /*background-color: lightblue;*/
 
   }
 
