@@ -238,6 +238,8 @@ $(document).ready(function () {
 
 	});
 
+	
+
 	$('.usa-l').on('click', function () {
 
 
@@ -274,6 +276,48 @@ $(document).ready(function () {
 		nextSlider();
 
 	});
+
+	$('#frmEnglish').on('submit', function () {
+		ejecutarScript();
+	});
+
+	function ejecutarScript() {
+
+		//alert('SE EJECUTA EL FORMULARIO')
+		$('#english .listMenu').css('display', 'block');
+		$('#english .listMenu').css('display', 'flex');
+		$('#english-sticky .listMenu').css('display', 'block');
+		$('#english-sticky .listMenu').css('display', 'Flex');
+
+		$('.spanish').css('display', 'none');
+		$('.english').css('display', 'block');
+		$('#spanish').css('display', 'none');
+		$('#english').css('display', 'block');
+		$('#langSpanish').css('display', 'none');
+		$('#langEnglish').css('display', 'block');
+		$('#langEnglish').css('position', 'fixed');
+		$('.textos-span').css('display', 'none');
+		$('.eng').css('color', 'blue');
+		$('.spa').css('color', '#595959');
+
+		langSpaEng = "langEnglish";
+		language = "textos-eng";
+		stickyM = "english-sticky";
+		mainMenu = "english";
+
+
+		if ($(window).scrollTop() > 1) {
+			$('#' + mainMenu).hide();
+			$('#' + stickyM).css('display', 'block');
+			$('#spanish-sticky').css('display', 'none');
+
+		}
+
+
+		nextSlider();
+
+	}
+
 
 	$('.vzla').on('click', function () {
 
